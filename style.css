@@ -305,7 +305,7 @@ li:nth-child(3) .list__link:focus svg path {
   fill: #d71a21;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 48em) {
   .main {
     margin: 2.8rem 1.5rem 2rem;
     position: relative;
@@ -346,7 +346,7 @@ li:nth-child(3) .list__link:focus svg path {
   .share__toggletip {
     height: 3.5rem;
     bottom: 34%;
-    left: 75.5%;
+    left: 67.5%;
     width: 11rem;
     border-radius: 10px;
     gap: 1.2rem;
@@ -362,12 +362,22 @@ li:nth-child(3) .list__link:focus svg path {
     border-right: 14px solid transparent;
     border-bottom: 14px solid var(--heading-clr);
     bottom: -0.6rem;
-    left: 44.5%;
+    left: 66.5%;
     transform: rotate(180deg);
   }
 
   .share__txt {
     letter-spacing: 5px;
     font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .share__toggletip {
+    left: 75.5%;
+  }
+
+  .share__toggletip:after {
+    left: 44.5%;
   }
 }
